@@ -1,27 +1,134 @@
 body{
-	font-family: Amasis MT Pro;
-	background-color : #b3dee3 ;
-}
-
-
-.partie{
-	font-size: 60px ;
-	color : red ;
+	background-color : #0700ee ;
+	font-family : "Comic sans ms" ;
 	text-align : center ;
 }
 
-
-.sous_partie{
-	font-size: 50px ;
-	color: purple ;
+.tableau {
+	background-color : #c9daf4 ;
+	border-radius: 30px ;
+	margin: auto;
 }
 
-.sous_sous_partie{
-	font-size: 30px ;
-	color: blue ;
+
+
+
+.NP{
+	color : #224391 ;
+	font-size : 20px ;
 }
 
-.version{
-	text-align : right ;
-	font-size : 10px ;
+
+.contenu{
+	text-align : left ;
+	padding-left : 20px
+}
+
+
+section{
+	background-color : #dfe9fa;
+	border-radius: 20px;
+	padding-left : 10px ;
+	padding-right : 10px ;
+	padding-bottom : 10px ;
+	margin-left : 10px ;
+	margin-right : 10px ;
+	margin-top : 10px ;
+	margin-bottom : 10px ;
+
+}
+
+.IG{
+	font-size : 50px ;
+	text-align : center ;
+	color : red ;
+}
+
+.question{
+	font-size : 20px ;
+	color : green ;
+}
+
+.reponse{
+	font-size : 16px ;
+	color : #ff7800n ;
+}
+
+.niveau {
+	width : 40px ;
+	font-size : 20px ;
+	font-family : "Comic sans ms" ;
+}
+
+.envoyer{
+	background-color : #679ffe ;
+	font-size : 40px ;
+	font-family : "Comic sans ms" ;
+	border-radius : 20px ;
+	margin: auto;
+	display: block;
+}
+
+.envoyer:hover {
+  background-color: #196dfc;
+  transition-duration: .5s;
+  border-radius: 10px;
+}
+
+.date{
+	width : 150px ;
+	font-size : 20px ;
+	font-family : "Comic sans ms" ;
+}
+
+
+
+
+.menu {
+	margin: auto;
+	text-align: center;
+}
+.menu td{
+	padding: 30px;
+}
+.menu a{
+	color: #116df1;
+	text-decoration:none;
+	font-size: 30px;
+	color: orange;
+	font-size: "Berlin Sans FD";
+
+}
+
+.menu a:hover{
+	color: #1133f1;
+	text-decoration:none;
+	font-size: 35px;
+	color: orange;
+	font-size: "Berlin Sans FD";
+
+}
+
+.boutonmenu{
+	background-color: #11f196;
+	border-radius: 5px;
+	width: 200px;
+}
+
+.boutonmenu:hover{
+	background-color: #11f14b;
+	border-radius: 3px;
+	width: 250px;
+	font-size: 35px;
+  transition-duration: .5s;
+
+
+}
+
+.section_menu{
+	background-color: #C8A90F;
+}
+
+.music{
+	width: 500px;
 }

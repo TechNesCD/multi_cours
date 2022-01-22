@@ -1,147 +1,343 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Multi-cours</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<ul>
-		<li> <img src='logo.png'> </li>
-		<li> Cours </li>
-		<li> Projet </li>
-		<li> Découverte <li>
-	</ul>
-	
-	<h1 class= "partie">Nouveautés </h1>
-	<hr>
-	
-	<p> Version et date de mise à jour : 1.0.1.5, 27/11/2021 </p>
-	
-	<ul>
-		
-		<li class="sous_sous_partie"> Ajout de la section "Anglais "</li>
-		
-	</ul>
-	
-	<br>
-	<br>
-	<br>
-	
-	
-	<h1 class="partie">Philosophie</h1>
-		
-	<h6 class="version">Version : 1.01 </h6>
-		
-	<hr>
-	<ul>
-		
-		<h1 class="sous_partie">Chapitre 1 : Le bonheur  est-il un idéal. </h1>
-			<ul>
+<!doctype html>
 
-				<li class="sous_sous_partie"><a href=""> </a></li>
+	<head>
+		<meta charset="utf-8">
+		<title>Tai_jitsu </title>
+		<link rel="stylesheet" href="style.css"/>
+		</head>
 
-			</ul>	
-			
-		<h1 class="sous_partie">Chapitre 2 : Comment peut-on savoir ce qui est bien et ce qui est mal. </h1>
+	
+	<body>
+
+
+
+
 		
-			<ul>
+		<table class = "tableau">
+			<tr>
+				<td>
+					<div>
 
-			<li class="sous_sous_partie"><a href="Leçon 2.pdf">I. Introduction</a></li>
 
-			</ul>
-		
-	</ul>
-	
-			<br>
-			<br>
-			<br>
-	
-	
-	<h1 class="partie">NSI</h1>
-		
-	<h6 class="version">Version : 1.01  </h6>
-		
-	<hr>
-		<ul>
-	
-			<h2 class="sous_partie"> 1.Correction sujet type BAC </h2>
-
-				<ul>
-
-					<li class="sous_sous_partie"><a href="Sujet 3.py">Correction : sujet 3</a></li>
-					<li class="sous_sous_partie"><a href="Sujet 4.py">Correction : sujet 4</a></li>
-
-				</ul>
-			
-		</ul>
-	
-			<br>
-			<br>
-			<br>
-	
-	<h1 class="partie">Enseignement scientifique</h1>
-		
-	<h6 class="version">Version : 1.0.1  </h6>
-	
-	<hr>
-	
-	
-		<ul> 
-			<h2 class="sous_partie"> 1. Physique chimie </h2>
-			
-				<ul>
+						<section>
+							<table>
+								<tr>
+									<td>
+										<h1> Le tai jitsu </h1>
+										<h2> Bienvenue sur le site Tai_jitsu ! </h2>
+										<h2> Nous aimerions que vous répondiez à ce questionnaire de <B>façon personnelle </B>
+										
+										<p> Avant cela, nous aimerions que vous nous indiquiez votre nom.</p>
+										
+										<p> (Vos informations et vos réponses ne seront en aucun cas utilisées à des fins publicitaires !)</p>
+									</td>
+									
+									<td>
+										<img src="tai_jitsu_img.png">
+									</td>
+								</tr>
+							</table>
+							
+						</section>
+					</div>
 					
-					<li class = "sous_sous_partie"> <a href="Chapitre 4.pdf">Chapitre 4 </a> </li>
-					
-				</ul>
-				
-				
-				
-			<h2 class="sous_partie">2. SVT </h2>
 
-			<ul>
-				
-				<li> </li>
-				
-			</ul>
-			
-			
-		</ul>
-	
-	
-			<br>
-			<br>
-			<br>
-	
-	<h1 class="partie">Anglais - vocabulaire</h1>
-		
-	<h6 class="version">Version : 1.0.2  </h6>
-	
-	<hr>
-		
-		<ul>
-	
-			<h2 class="sous_partie"> Niveau B1 </h2>
-
-				<ul>
-
-					<li class="sous_sous_partie"><a href="https://lingua.com/fr/anglais/lecture/chicago/"> Let's go for the discovery of Chicago !</a></li>
-					<ul>
-						<li class="sous_sous_partie"><a href="https://lingua.com/pdf/english-text-chicago.pdf"> version PDF</a></li>
+					<div class = "contenu">
+						<div>
+							<form name="Quest">
+							
+								<section>
+								<h1 class = "IG"> Informations générales </h1>
+									<div class = "NP">
+										<p class="question"> Votre nom : <input type="text" name="nom"/> </p>
+										<p class="question"> Votre prénom : <input type="text" name="prénom"/> </p>
+									</div>
+									
+									<p class="question"> Indiquez ici la date à laquelle vous avez rempli ce formulaire : rempli le <input class = "date" type="date" name="date"/> </p>
+									
+									<div>
+									
+								
+										<p class="question"> Faites-vous du karaté ? </p>
+										<div>
+											<input type="radio" name="FDK" value ="oui"/> Oui</br> 
+											<input type="radio" name="FDK" value ="non"/> Non</br> 
+										</div>
+									</div>
+							
+									<div>
+										<p class="question"> A combien estimez-vous votre niveau de défense ? </p>
+										
+										<input class = "niveau" type="number" name="Niv" min="1" max ="10"/> / 10</br>
+									
+									</div>
+									
+									<p class="question"> Quelle âge avez-vous ? </p>
+									
+									<p class="reponse">
+										<input type="radio" name="âge" value="-18"/> Moins de 18 ans</br>
+										<input type="radio" name="âge" value="18.24" checked/> Entre 18 et 24 ans</br>
+										<input type="radio" name="âge" value="25.65"/> Entre 25 et 65 ans</br>
+										<input type="radio" name="âge" value="+65"/> Plus de 65 ans</br>
+									</p>
+								</section>
 						
-						<li class="sous_sous_partie"><a href="https://quizlet.com/_ao93i9?x=1jqt&i=41m29x"> Vocabulary on Quizlet, directed by me</a></li>
+							<div>
+								<section>
+									<h1 class="IG"> Quiz ?!</h1>
+							
+									<p class="question">1. Quelles couleurs de ceinture existent dans le tai-jitsu ? </p>
+										<div id = "reponse1"> <input type="checkbox" name="couleurs" value ="1"/> Vert</div>
+										<div id = "reponse2"> <input type="checkbox" name="couleurs" value ="1"/> Rouge</div>
+											<input type="checkbox" name="couleurs" value ="0"/> Rose</br>
+											<input type="checkbox" name="couleurs" value ="0"/> Gris</br>
+											<input type="checkbox" name="couleurs" value ="0"/> Violet</br>
+										<div id = "reponse3"> <input type="checkbox" name="couleurs" value ="1"/> Jaune</div>
+										<div id = "reponse4"> <input type="checkbox" name="couleurs" value ="1"/> Noir</div>
+										<div id = "reponse5"> <input type="checkbox" name="couleurs" value ="1"/> Marron</div></br>
+							
+							
+									<p class = "question">2. D'après les deux propositions ci-dessous, laquelle pensez-vous êtes la bonne ? <p>
+							
+									<input type="radio" name="ceinture" value ="unique"/> Il existe uniquement des couleurs uniques (ex :vert, marron, noir)</br> 
+									<div id = "reponse6"> <input type="radio" name="ceinture" value ="intermediaire"/> Il existe des intermédiaires à chaque ceinture (ex : blanche-jaune, vert-bleu)</div> </br>
+									
+									<p class = "question">3. Quand est-ce qu'a été créé le tai-jitsu ? </p>
+									
+										<input type="radio" name="dateTJ" value ="1886"/>1896 </br> 
+										<input type="radio" name="dateTJ" value ="1912"/> 1912 </br>
+										<input type="radio" name="dateTJ" value ="1944"/>1944 </br>
+									<div id = "reponse7"> <input type="radio" name="dateTJ" value ="1957"/>1957 </div>
+										<input type="radio" name="dateTJ" value ="1982"/>1982 </br>
+									
+									
+									<p class = "question">4. Qui a créé le tai-jitsu ? </p>
+									
+									Le créateur du tai-jitsu est : 
+									
+									<select id="createur" class="date", name ="createur">
+												<option name="createur" value="JA" id = "reponse8">Jim Alcheik </option>
+											<option name="createur" value="GF">Gichin Funakoshi </option>
+											<option name="createur" value="JK">Jigorō Kanō </option>
+									</select>
+									
+									</br> </br>
+									
+									
+									<p class = "question">5. Comment s'appele le 5ème kata du tai-jitsu ? </p>
+									
+										<input type="radio" name="Nkata5" value ="kata1"/>Taï Jitsu Kata Shodan </br> 
+										<input type="radio" name="Nkata5" value ="kata3"/> Taï Jitsu Kata Sandan </br>
+									<div id = "reponse9"> <input type="radio" name="Nkata5" value ="kata5"/>Taï Jitsu Kata Godan </div>
+										<input type="radio" name="Nkata5" value ="kata2"/>Taï Jitsu Kata Nidan </br>
+										<input type="radio" name="Nkata5" value ="kata4"/>Taï Jitsu Kata Atemi </br>
+									
+									
+									<p class = "question">6. Que signifie "tai" ? </p>
+									
+										<input type="radio" name="tai" value ="G"/>Les Genoux </br> 
+										<input type="radio" name="tai" value ="T"/> La tête </br>
+									<div id = "reponse10"> <input type="radio" name="tai" value ="C"/>Le corps </div>
+										<input type="radio" name="tai" value ="B"/>Les bras </br>
+										<input type="radio" name="tai" value ="M"/>Les mains </br>
+										<input type="radio" name="tai" value ="P"/>Les pieds </br>
+										<input type="radio" name="tai" value ="D"/>Il ne veut rien dire </br>
+
+									<p class="question">7. Que signifie "jitsu" ? </p>
+										<div id = "reponse11"> <input type="checkbox" name="jitsu" value ="1"/> Art </div>
+										
+											<input type="checkbox" name="jitsu" value ="0"/> Combat </br> 
+										
+											<input type="checkbox" name="jitsu" value ="0"/> Kata </br>
+											
+											<input type="checkbox" name="jitsu" value ="0"/> Roulades</br>
+											
+										<div id = "reponse12"> <input type="checkbox" name="jitsu" value ="1"/> Technique</div>
+										
+											<input type="checkbox" name="jitsu" value ="0"/> Défense</br>
+										
+											<input type="checkbox" name="jitsu" value ="0"/> Japon</br>
+											
+										<div id = "reponse13"> <input type="checkbox" name="jitsu" value ="1"/> Moyen</div>
+										
+											<input type="checkbox" name="jitsu" value ="0"/> Il ne veut rien dire</br>
+									
+									
+										<p class = "question">6. Que signifie "tai" ? </p>
+									
+										<input type="radio" name="gmjontj" value ="J"/>Jigoro Kano </br> 
+										<input type="radio" name="gmjontj" value ="M"/> Minoru Mochizuki </br>
+									<div id = "reponse10"> <input type="radio" name="gmjontj" value ="G"/>Gichin Funakoshi </div>
+										
+									
+									<input class="envoyer" type="button" name="valider" value = "Valider et envoyer" onclick="score()"/>
+									<input class="envoyer" type="button" name="valider" value = "Valider et envoyer (Mode hard)" onclick="score2()"/>
+									
+									
+								</section>
+							</div>
 						
-					</ul>
-					
+						
+							</form>
+							
+							
+							<script>
+							
 
-				</ul>
-			
-		</ul>
-	
-			<br>
-			<br>
-			<br>
+							document.getElementById("musique").style.display = none;
 
-</body>
+
+							function score(){
+								var tot = 0;
+								let men;
+								
+								if (q1(document.Quest.couleurs)){tot = tot+1}
+								if (q2()){tot = tot+1}
+								if (q3()){tot = tot+1}
+								if (q4()){tot = tot+1}
+								if (q5()){tot = tot+1}
+								if (q6()){tot = tot+1}
+								if (q7(document.Quest.jitsu)){tot = tot+2}
+								if (q8()){tot = tot+1}
+								pct = Math.round(100*tot/7)
+								if (0<pct<50){men = "Non réussi";}
+								if (50<=pct<60){men = "assez bien !";}
+								if (60<=pct<70){men = "Bien ";}
+								if (70<=pct<90){men = "très bien";}
+								if (90<=pct<=100){men = "vous connaissez tous, Parfait !!";}
+								
+								
+								
+								document.getElementById("reponse1").style.color="green";
+								document.getElementById("reponse2").style.color="green";
+								document.getElementById("reponse3").style.color="green";
+								document.getElementById("reponse4").style.color="green";
+								document.getElementById("reponse5").style.color="green";
+								document.getElementById("reponse6").style.color="green";
+								document.getElementById("reponse7").style.color="green";
+								document.getElementById("reponse8").style.color="green";
+								document.getElementById("reponse9").style.color="green";
+								document.getElementById("reponse10").style.color="green";
+								document.getElementById("reponse11").style.color="green";
+								document.getElementById("reponse12").style.color="green";
+								document.getElementById("reponse13").style.color="green";
+									
+								alert("score : "+ tot +" bonne(s) réponse(s) sur un total de 7. Soit une réusite de "+ pct +" %. Votre mention : " + men);
+								
+
+								if(tot>4){
+									document.getElementById("musique").style.display = block;		
+								}
+
+							}
+							
+
+							function score2(){
+								var tot = 0;
+								let men;
+								
+								if (q1(document.Quest.couleurs)){tot = tot+2}
+								if (q2()){tot = tot+1}
+								if (q3()){tot = tot+1}
+								if (q4()){tot = tot+3}
+								if (q5()){tot = tot+2}
+								if (q6()){tot = tot+2}
+								if (q7(document.Quest.jitsu)){tot = tot+1}
+								pct = Math.round(100*tot/12)
+								if (0<pct<50){men = "Non réussi";}
+								if (50<=pct<60){men = "assez bien !";}
+								if (60<=pct<70){men = "Bien ";}
+								if (70<=pct<90){men = "très bien";}
+								if (90<=pct<=100){men = "vous connaissez tous, Parfait !!";}
+								
+								
+								
+								document.getElementById("reponse1").style.color="green";
+								document.getElementById("reponse2").style.color="green";
+								document.getElementById("reponse3").style.color="green";
+								document.getElementById("reponse4").style.color="green";
+								document.getElementById("reponse5").style.color="green";
+								document.getElementById("reponse6").style.color="green";
+								document.getElementById("reponse7").style.color="green";
+								document.getElementById("reponse8").style.color="green";
+								document.getElementById("reponse9").style.color="green";
+								document.getElementById("reponse10").style.color="green";
+								document.getElementById("reponse11").style.color="green";
+								document.getElementById("reponse12").style.color="green";
+								document.getElementById("reponse13").style.color="green";
+									
+								alert("score : "+ tot +" point(s) sur un total de 12. Soit une réusite de "+ pct +" %. Votre mention : " + men);
+								
+							}
+
+							
+							
+							
+							function q1(cases) {
+								var rep=true;
+								for (i=0; i< cases.length; i++) { 
+								if (cases[i].value==1 && cases[i].checked==false) rep=false;
+								if (cases[i].value==0 && cases[i].checked==true) rep=false;
+								}
+								return rep;
+							}
+							
+							
+							function q2(){
+								const rep2 = document.Quest.ceinture.value;
+								return rep2 == "intermediaire";
+							}
+							
+							
+							function q3(){
+								const rep3 = document.Quest.dateTJ.value;
+								return rep3 == "1957";
+							}
+							
+							
+							function q4(){
+								const rep4 = document.Quest.createur.value;
+								return rep4 == "JA";
+							}
+							
+							
+							function q5(){
+								const rep5 = document.Quest.Nkata5.value;
+								return rep5 == "kata5";
+							}
+							
+							function q6(){
+								const rep5 = document.Quest.tai.value;
+								return rep5 == "C";
+							}
+							
+							
+							
+							function q7(cases) {
+								var rep=true;
+								for (i=0; i< cases.length; i++) { 
+								if (cases[i].value==1 && cases[i].checked==false) rep=false;
+								if (cases[i].value==0 && cases[i].checked==true) rep=false;
+								}
+								return rep;
+							}
+							
+							function q8(){
+								const rep5 = document.Quest.gmjontj.value;
+								return rep5 == "M";
+							}
+
+							
+							</script>
+							
+							
+							
+							
+							
+						</div>	
+					</div>
+				</td>
+			</tr>	
+		</table>	
+	</body> 
 </html>
